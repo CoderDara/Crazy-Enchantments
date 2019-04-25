@@ -50,20 +50,16 @@ Enchantments:
         - '&7double damage to your enemy.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
+        - '&7 - &a&l&Rare'
         - '&6Enchantable Items: &aBows'
     Categories:
-      - 'Common'
       - 'Rare'
-      - 'Legendary'
   OverLoad: #Do not change this line.
     Enabled: true
     Name: 'OverLoad'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 5
+    MaxPower: 7
     Info:
       Name: '&e&lOverload &7(&bI-&bV&7)'
       Description:
@@ -71,20 +67,16 @@ Enchantments:
         - '&7when you put it on.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   SelfDestruct: #Do not change this line.
     Enabled: true
     Name: 'SelfDestruct'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 5
+    MaxPower: 1
     Info:
       Name: '&e&lSelf Destruct &7(&bI-&bV&7)'
       Description:
@@ -92,20 +84,16 @@ Enchantments:
         - '&7be an explosion where you died.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
         - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
-      - 'Common'
       - 'Rare'
-      - 'Legendary'
   Springs: #Do not change this line.
     Enabled: true
     Name: 'Springs'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 5
+    MaxPower: 6
     Info:
       Name: '&e&lSprings &7(&bI-&bV&7)'
       Description:
@@ -114,13 +102,9 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aBoots'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Gears: #Do not change this line.
     Enabled: true
     Name: 'Gears'
@@ -134,14 +118,10 @@ Enchantments:
         - '&7when you put it on.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
         - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aBoots'
     Categories:
-      - 'Common'
       - 'Rare'
-      - 'Legendary'
   Hulk: #Do not change this line.
     Enabled: true
     Name: 'Hulk'
@@ -155,16 +135,12 @@ Enchantments:
         - '&7and slowness when wearing it.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   Mermaid: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'Mermaid'
     Color: '&7'
     BookColor: '&b&l'
@@ -197,16 +173,12 @@ Enchantments:
         - '&7when you put it on.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   Vampire: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'Vampire'
     Color: '&7'
     BookColor: '&b&l'
@@ -248,7 +220,7 @@ Enchantments:
       - 'Rare'
       - 'Legendary'
   Doctor: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'Doctor'
     Color: '&7'
     BookColor: '&b&l'
@@ -269,7 +241,7 @@ Enchantments:
       - 'Rare'
       - 'Legendary'
   Boom: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'Boom'
     Color: '&7'
     BookColor: '&b&l'
@@ -294,7 +266,7 @@ Enchantments:
     Name: 'Venom'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 5
+    MaxPower: 2
     Info:
       Name: '&e&lVenom &7(&bI-&bV&7)'
       Description:
@@ -302,20 +274,16 @@ Enchantments:
         - '&7your enemy poison.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
         - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aBows'
     Categories:
-      - 'Common'
       - 'Rare'
-      - 'Legendary'
   DoubleDamage: #Do not change this line.
     Enabled: true
     Name: 'DoubleDamage'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 3
+    MaxPower: 2
     Info:
       Name: '&e&lDouble Damage &7(&bI-&bIII&7)'
       Description:
@@ -323,20 +291,16 @@ Enchantments:
         - '&7deal double damage.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   SlowMo: #Do not change this line.
     Enabled: true
     Name: 'SlowMo'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 3
+    MaxPower: 1
     Info:
       Name: '&e&lSlowMo &7(&bI-&bIII&7)'
       Description:
@@ -345,19 +309,15 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Blindness: #Do not change this line.
     Enabled: true
     Name: 'Blindness'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 2
+    MaxPower: 1
     Info:
       Name: '&e&lBlindness &7(&bI-&bII&7)'
       Description:
@@ -366,13 +326,9 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Viper: #Do not change this line.
     Enabled: true
     Name: 'Viper'
@@ -387,13 +343,9 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   AntiGravity: #Do not change this line.
     Enabled: true
     Name: 'AntiGravity'
