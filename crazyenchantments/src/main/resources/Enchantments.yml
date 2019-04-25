@@ -13,15 +13,11 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aHelmets'
     Categories: #All the categories the Enchantment can be found in
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   BurnShield: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'BurnShield'
     Color: '&7'
     BookColor: '&b&l'
@@ -46,7 +42,7 @@ Enchantments:
     Name: 'Piercing'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 3
+    MaxPower: 4
     Info:
       Name: '&e&lPiercing &7(&bI-&bIII&7)' 
       Description:
