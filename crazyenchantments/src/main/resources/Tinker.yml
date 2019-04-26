@@ -1,9 +1,9 @@
 Settings:
-  GUIName: '&7&lThe &4&lCrazy &c&lTinkerer' #Name of the Tinker GUI
+  GUIName: '&7&lThe &4&lEpic &c&lTinkerer' #Name of the Tinker GUI
   Currency: XP_Total #The currency you wish to use.
-  TradeButton: '&eClick to accept the trade' #The Red Buttons in the Tinkerer
+  TradeButton: '&eClick to accept the epic trade' #The Red Buttons in the Tinkerer
   BottleOptions:
-    Item: '384' #Item the XP bottles are
+    Item: 'minecraft:experience_bottle' #Item the XP bottles are
     Name: '&aRecycled XP' #Name of the Bottle
     Lore: #Lore of the Bottle
       - '&a&lRecycled &6%Total%XP'
