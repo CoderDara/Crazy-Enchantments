@@ -58,11 +58,11 @@ Messages:
       Name: '&c&lEnchantment Info'
     Categories-Info:
       Back:
-        Item: 399
+        Item: minecraft:spectral_arrow
         Right: '&7&l<<&b&lBack'
         Left: '&b&lBack&7&l>>'
       Helmets:
-        Item: 314
+        Item: minecraft:turtle_helmet
         Slot: 1
         Name: '&e&lHelmet Enchantments'
         Lore:
@@ -73,7 +73,7 @@ Messages:
           - '&a- Iron Helmet'
           - '&a- Diamond Helmet'
       Boots:
-        Item: 317
+        Item: minecraft:chainmail_boots
         Slot: 2
         Name: '&e&lBoot Enchantments'
         Lore:
@@ -84,7 +84,7 @@ Messages:
           - '&a- Iron Boots'
           - '&a- Diamond Boots'
       Armor:
-        Item: 315
+        Item: minecraft:iron_chestplate
         Slot: 3
         Name: '&e&lArmor Enchantments'
         Lore:
@@ -95,14 +95,14 @@ Messages:
           - '&a- Iron Armor'
           - '&a- Diamond Armor'
       Bow:
-        Item: 261
+        Item: minecraft:bow
         Slot: 4
         Name: '&e&lBow Enchantments'
         Lore:
           - '&cEnchantable Items:'
           - '&a- Bow'
       Sword:
-        Item: 283
+        Item: minecraft:wooden_sword
         Slot: 5
         Name: '&e&lSword Enchantments'
         Lore:
@@ -113,7 +113,7 @@ Messages:
           - '&a- Iron Sword'
           - '&a- Diamond Sword'
       Axe:
-        Item: 286
+        Item: minecraft:diamond_axe	
         Slot: 6
         Name: '&e&lAxe Enchantments'
         Lore:
@@ -124,7 +124,7 @@ Messages:
           - '&a- Iron Axe'
           - '&a- Diamond Axe'
       Tool:
-        Item: 294
+        Item: minecraft:stone_hoe
         Slot: 7
         Name: '&e&lTool Enchantments'
         Lore:
@@ -134,7 +134,7 @@ Messages:
           - '&a- All Shovels'
           - '&a- All Hoes'
       Pickaxe:
-        Item: 285
+        Item: minecraft:golden_pickaxe
         Slot: 8
         Name: '&e&lPickaxe Enchantments'
         Lore:
@@ -145,14 +145,14 @@ Messages:
           - '&a- Iron Pickaxe'
           - '&a- Diamond Pickaxe'
       Misc:
-        Item: 345
+        Item: minecraft:compass	
         Slot: 9
         Name: '&e&lMisc Enchantments'
         Lore:
           - '&aRead enchantment to'
           - '&aSee enchantable Items.'
       Other:
-        Item: 381
+        Item: minecraft:ender_eye	
         Slot: 14
         Name: '&e&lOther Info'
         Lore:
