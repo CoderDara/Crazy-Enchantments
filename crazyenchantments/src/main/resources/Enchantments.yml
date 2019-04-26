@@ -804,7 +804,7 @@ Enchantments:
     Name: 'Disarmer'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 3
+    MaxPower: 2
     Info:
       Name: '&e&lDisarmer &7(&bI-&bIII&7)'
       Description:
@@ -812,13 +812,9 @@ Enchantments:
         - '&7random armor piece off your enemy.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   Execute: #Do not change this line.
     Enabled: true
@@ -833,14 +829,10 @@ Enchantments:
         - '&7when your enemy is low on health.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
         - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
-      - 'Common'
       - 'Rare'
-      - 'Legendary'
   Headless: #Do not change this line.
     Enabled: true
     Name: 'Headless'
@@ -854,34 +846,26 @@ Enchantments:
         - '&7your enemy''s head on death.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   Inquisitive: #Do not change this line.
     Enabled: true
-    Name: 'Inquisitive'
+    Name: 'Culminate'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 5
+    MaxPower: 8
     Info:
-      Name: '&e&lInquisitive &7(&bI-&bV&7)'
+      Name: '&e&lCulminate &7(&bI-&bV&7)'
       Description:
         - '&7Will double or more XP'
         - '&7based on the enchantment level.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   Insomnia: #Do not change this line.
     Enabled: true
@@ -896,20 +880,16 @@ Enchantments:
         - '&7but has a high chance of doing double the damage.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
         - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
-      - 'Common'
       - 'Rare'
-      - 'Legendary'
   Nutrition: #Do not change this line.
     Enabled: true
     Name: 'Nutrition'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 3
+    MaxPower: 2
     Info:
       Name: '&e&lNutrition &7(&bI-&bIII&7)'
       Description:
@@ -918,36 +898,28 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Obliterate: #Do not change this line.
     Enabled: true
-    Name: 'Obliterate'
+    Name: 'Goodbye'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 3
+    MaxPower: 4
     Info:
-      Name: '&e&lObliterate &7(&bI-&bIII&7)'
+      Name: '&e&lGoodbye &7(&bI-&bIII&7)'
       Description:
         - '&7Has a chance to send'
         - '&7your enemy flying backwards.'
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Paralyze: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'Paralyze'
     Color: '&7'
     BookColor: '&b&l'
@@ -972,7 +944,7 @@ Enchantments:
     Name: 'SkillSwipe'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 5
+    MaxPower: 2
     Info:
       Name: '&e&lSkill Swipe &7(&bI-&bV&7)'
       Description:
@@ -981,19 +953,15 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Snare: #Do not change this line.
     Enabled: true
     Name: 'Snare'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 3
+    MaxPower: 2
     Info:
       Name: '&e&lSnare &7(&bI-&bIII&7)'
       Description:
@@ -1002,40 +970,32 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Trap: #Do not change this line.
     Enabled: true
-    Name: 'Trap'
+    Name: 'Quagmire'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 2
+    MaxPower: 1
     Info:
-      Name: '&e&lTrap &7(&bI-&bII&7)'
+      Name: '&e&lQuagmire &7(&bI-&bII&7)'
       Description:
         - '&7Has a chance to give'
         - '&7your enemy high slowness.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
         - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
-      - 'Common'
       - 'Rare'
-      - 'Legendary'
   Wither: #Do not change this line.
     Enabled: true
     Name: 'Wither'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 3
+    MaxPower: 2
     Info:
       Name: '&e&lWither &7(&bI-&bIII&7)'
       Description:
@@ -1043,20 +1003,16 @@ Enchantments:
         - '&7your enemy high wither.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   Rage: #Do not change this line.
     Enabled: true
     Name: 'Rage'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 3
+    MaxPower: 5
     Info:
       Name: '&e&lRage &7(&bI-&bIII&7)'
       Description:
@@ -1064,20 +1020,16 @@ Enchantments:
         - '&7as long as you keep fightning.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   Valor: #Do not change this line.
     Enabled: true
     Name: 'Valor'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 2
+    MaxPower: 3
     Info:
       Name: '&e&lValor &7(&bI-&bII&7)'
       Description:
@@ -1085,20 +1037,16 @@ Enchantments:
         - '&7based on your enchantment level.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   SmokeBomb: #Do not change this line.
     Enabled: true
     Name: 'SmokeBomb'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 3
+    MaxPower: 1
     Info:
       Name: '&e&lSmoke Bomb &7(&bI-&bIII&7)'
       Description:
@@ -1107,33 +1055,25 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Drunk: #Do not change this line.
     Enabled: true
-    Name: 'Drunk'
+    Name: 'Maniac'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 3
+    MaxPower: 4
     Info:
-      Name: '&e&lDrunk &7(&bI-&bIII&7)'
+      Name: '&e&lManiac &7(&bI-&bIII&7)'
       Description:
         - '&7Gives strength, mining fatigue,'
         - '&7and slowness when put on.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   Voodoo: #Do not change this line.
     Enabled: true
