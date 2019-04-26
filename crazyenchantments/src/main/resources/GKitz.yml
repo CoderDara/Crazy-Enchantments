@@ -1,6 +1,6 @@
 Settings:
   GUI-Size: 27 #Must be a factor of 9.
-  Inventory-Name: '&8List of all GKitz'
+  Inventory-Name: '&8Epic GKitz'
   GUI-Customization: #This allows you to customize unclickable items into you GUI.
     - 'Slot:1, Item:160:15, Name: '
     - 'Slot:2, Item:160:15, Name: '
