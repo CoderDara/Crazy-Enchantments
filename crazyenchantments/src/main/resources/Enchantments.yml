@@ -1080,7 +1080,7 @@ Enchantments:
     Name: 'Voodoo'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 3
+    MaxPower: 2
     Info:
       Name: '&e&lVoodoo &7(&bI-&bIII&7)'
       Description:
@@ -1089,19 +1089,15 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   MultiArrow: #Do not change this line.
     Enabled: true
     Name: 'MultiArrow'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 5
+    MaxPower: 4
     Info:
       Name: '&e&lMultiArrow &7(&bI-&bV&7)'
       Description:
@@ -1109,20 +1105,16 @@ Enchantments:
         - '&7multiple arrows at once.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
         - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aBows'
     Categories:
-      - 'Common'
       - 'Rare'
-      - 'Legendary'
   Recover: #Do not change this line.
     Enabled: true
     Name: 'Recover'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 1
+    MaxPower: 3
     Info:
       Name: '&e&lRecover &7(&bI&7)'
       Description:
@@ -1130,16 +1122,12 @@ Enchantments:
         - '&7you get absorption and regen.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   Cactus: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'Cactus'
     Color: '&7'
     BookColor: '&b&l'
@@ -1172,16 +1160,12 @@ Enchantments:
         - '&7you will blast off backwards to escape.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
         - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aBoots'
     Categories:
-      - 'Common'
       - 'Rare'
-      - 'Legendary'
   Angel: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'Angel'
     Color: '&7'
     BookColor: '&b&l'
@@ -1214,16 +1198,12 @@ Enchantments:
         - '&7your items as you walk.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor, Weapons, and Tools'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   Commander: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'Commander'
     Color: '&7'
     BookColor: '&b&l'
@@ -1244,7 +1224,7 @@ Enchantments:
       - 'Rare'
       - 'Legendary'
   StormCaller: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'StormCaller'
     Color: '&7'
     BookColor: '&b&l'
@@ -1265,7 +1245,7 @@ Enchantments:
       - 'Rare'
       - 'Legendary'
   Leadership: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'Leadership'
     Color: '&7'
     BookColor: '&b&l'
@@ -1299,15 +1279,11 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aHelmets'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Wings: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'Wings'
     Color: '&7'
     BookColor: '&b&l'
@@ -1340,13 +1316,9 @@ Enchantments:
         - '&7depending on the power of the enchantment.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aPickaxes'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   Furnace: #Do not change this line.
     Enabled: true
@@ -1361,20 +1333,16 @@ Enchantments:
         - '&7items instead of blocks.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aPickaxes'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   Blizzard: #Do not change this line.
     Enabled: true
     Name: 'Blizzard'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 1
+    MaxPower: 2
     Info:
       Name: '&e&lBlizzard &7(&bI&7)'
       Description:
@@ -1382,20 +1350,16 @@ Enchantments:
         - '&7blocks slowness for a short time.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
         - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
-      - 'Common'
       - 'Rare'
-      - 'Legendary'
   AcidRain: #Do not change this line.
     Enabled: true
     Name: 'AcidRain'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 3
+    MaxPower: 2
     Info:
       Name: '&e&lAcidRain &7(&bI-&bIII&7)'
       Description:
@@ -1403,14 +1367,10 @@ Enchantments:
         - '&7blocks poison for a short time.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
         - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
-      - 'Common'
       - 'Rare'
-      - 'Legendary'
   SandStorm: #Do not change this line.
     Enabled: true
     Name: 'SandStorm'
@@ -1425,13 +1385,9 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Radiant: #Do not change this line.
     Enabled: true
     Name: 'Radiant'
@@ -1445,20 +1401,16 @@ Enchantments:
         - '&7blocks on fire for a short time.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
         - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
-      - 'Common'
       - 'Rare'
-      - 'Legendary'
   Intimidate: #Do not change this line.
     Enabled: true
     Name: 'Intimidate'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 2
+    MaxPower: 1
     Info:
       Name: '&e&lIntimidate &7(&bI-&bII&7)'
       Description:
@@ -1467,13 +1419,9 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Pull: #Do not change this line.
     Enabled: true
     Name: 'Pull'
@@ -1488,15 +1436,11 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aBows'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Tamer: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'Tamer'
     Color: '&7'
     BookColor: '&b&l'
@@ -1517,7 +1461,7 @@ Enchantments:
       - 'Rare'
       - 'Legendary'
   Guards: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'Guards'
     Color: '&7'
     BookColor: '&b&l'
@@ -1538,7 +1482,7 @@ Enchantments:
       - 'Rare'
       - 'Legendary'
   Infestation: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'Infestation'
     Color: '&7'
     BookColor: '&b&l'
@@ -1559,7 +1503,7 @@ Enchantments:
       - 'Rare'
       - 'Legendary'
   Necromancer: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'Necromancer'
     Color: '&7'
     BookColor: '&b&l'
