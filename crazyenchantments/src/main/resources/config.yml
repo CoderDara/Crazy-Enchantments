@@ -4,7 +4,7 @@ Settings:
   Player-Info-Backup-Message: true #Toggle this on and off if you wish to see when the players data gets backed up.
   Reset-Players-Max-Health: true #This is for some servers that get a health duplication glitch from plugins like CombatTagPlus(v1.2.3 down)
   InvName: '&4&l&nCrazy Enchanter' #The name of the /CE inventory
-  Enchantment-Book-Item: '340' #The item that the enchantment book is.
+  Enchantment-Book-Item: 'minecraft:book' #The item that the enchantment book is.
   Enchantment-Book-Glowing: true #Toggle on or off if the book will have an enchanted look.
   GUISize: 54 #The size of the GUI, must be a factor of 9
   EnchantmentBookLore: #The lore on the enchantments books.
@@ -34,7 +34,7 @@ Settings:
       Name: '&8Rolling the &eScrambler' #Name of the GUI.
       Toggle: true #If the GUI will show. Warning>> This may cause lag if a lot of players are using it all the time.
       Pointer: #The pointer in the middle of the GUI.
-        Item: '76' #The item the pointer is.
+        Item: 'minecraft:redstone_torch' #The item the pointer is.
         Name: '&c&lPointer' #The name of the pointer.
         Lore: #The lore on the pointer.
           - '&7Whatever percents the item lands on'
@@ -116,7 +116,7 @@ Settings:
   Info: #Settings for Info item in the GUI
     InGUI: true #Toggle whether it is in the /CE GUI or not
     Slot: 23 #Slot it is in
-    Item: '345' #Item it is
+    Item: 'minecraft:compass' #Item it is
     Glowing: true #Whether it glows like its enchanted
     Name: '&eInfo on the Enchantments' #Name of the Item
     Lore: #Lore of the item
