@@ -2,30 +2,30 @@ Settings:
   GUI-Size: 27 #Must be a factor of 9.
   Inventory-Name: '&8Epic GKitz'
   GUI-Customization: #This allows you to customize unclickable items into you GUI.
-    - 'Slot:1, Item:160:15, Name: '
-    - 'Slot:2, Item:160:15, Name: '
-    - 'Slot:3, Item:160:15, Name: '
-    - 'Slot:4, Item:160:15, Name: '
-    - 'Slot:5, Item:160:15, Name: '
-    - 'Slot:6, Item:160:15, Name: '
-    - 'Slot:7, Item:160:15, Name: '
-    - 'Slot:8, Item:160:15, Name: '
-    - 'Slot:9, Item:160:15, Name: '
-    - 'Slot:10, Item:160:15, Name: '
-    - 'Slot:11, Item:160:7, Name: '
-    - 'Slot:13, Item:160:7, Name: '
-    - 'Slot:15, Item:160:7, Name: '
-    - 'Slot:17, Item:160:7, Name: '
-    - 'Slot:18, Item:160:15, Name: '
-    - 'Slot:19, Item:160:15, Name: '
-    - 'Slot:20, Item:160:15, Name: '
-    - 'Slot:21, Item:160:15, Name: '
-    - 'Slot:22, Item:160:15, Name: '
-    - 'Slot:23, Item:160:15, Name: '
-    - 'Slot:24, Item:160:15, Name: '
-    - 'Slot:25, Item:160:15, Name: '
-    - 'Slot:26, Item:160:15, Name: '
-    - 'Slot:27, Item:160:15, Name: '
+    - 'Slot:1, Item:minecraft:black_stained_glass_pane, Name: '
+    - 'Slot:2, Item:black_stained_glass_pane, Name: '
+    - 'Slot:3, Item:black_stained_glass_pane, Name: '
+    - 'Slot:4, Item:black_stained_glass_pane, Name: '
+    - 'Slot:5, Item:black_stained_glass_pane, Name: '
+    - 'Slot:6, Item:black_stained_glass_pane, Name: '
+    - 'Slot:7, Item:black_stained_glass_pane, Name: '
+    - 'Slot:8, Item:black_stained_glass_pane, Name: '
+    - 'Slot:9, Item:black_stained_glass_pane, Name: '
+    - 'Slot:10, Item:black_stained_glass_pane, Name: '
+    - 'Slot:11, Item:minecraft:gray_stained_glass_pane, Name: '
+    - 'Slot:13, Item:minecraft:gray_stained_glass_pane, Name: '
+    - 'Slot:15, Item:minecraft:gray_stained_glass_pane, Name: '
+    - 'Slot:17, Item:minecraft:gray_stained_glass_pane, Name: '
+    - 'Slot:18, Item:black_stained_glass_pane, Name: '
+    - 'Slot:19, Item:black_stained_glass_pane, Name: '
+    - 'Slot:20, Item:black_stained_glass_pane, Name: '
+    - 'Slot:21, Item:black_stained_glass_pane, Name: '
+    - 'Slot:22, Item:black_stained_glass_pane, Name: '
+    - 'Slot:23, Item:black_stained_glass_pane, Name: '
+    - 'Slot:24, Item:black_stained_glass_pane, Name: '
+    - 'Slot:25, Item:black_stained_glass_pane, Name: '
+    - 'Slot:26, Item:black_stained_glass_pane, Name: '
+    - 'Slot:27, Item:black_stained_glass_pane, Name: '
 ###################################
 #             Items: Options
 # Item: <ID:MD> - You can choose the item with its id and meta data.
@@ -42,7 +42,7 @@ GKitz: #GKit optons.
   Hero: #Name of the GKit.
     Display: #All the display option in the gui.
       Slot: 12 #Slot the item is located at in the gui.
-      Item: '160:1' #The item that is displayed for the GKit.
+      Item: 'minecraft:orange_stained_glass_pane' #The item that is displayed for the GKit.
       Glowing: true #Toggle on or off if the item has an enchanted effect.
       Name: '&6&lThe Hero GKit' #Display name of the GKit.
       Lore: #The lore that goes on the display item.
@@ -55,16 +55,16 @@ GKitz: #GKit optons.
     Auto-Equip: false #If armor is auto equipped onto the player if the slots are available.
     Cooldown: '24h' #Cooldown for the GKit. Available options d - Day, h - Hour, m - Minute, s - Second
     Items: #The items that are given the players. 
-      - 'Item:310, Amount:1, Name:&6&lHero Helmet, Enchantments:Protection:4,Respiration:3,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:1-5,Hulk:2-3,Glowing:0-1,Implants:0-5, Lore:&aA special helmet worn by a great hero.,&aTake special care of this.'
-      - 'Item:311, Amount:1, Name:&6&lHero Chestplate, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&aA special chestplate worn by a great hero.,&aTake special care of this.'
-      - 'Item:312, Amount:1, Name:&6&lHero Leggings, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&aA special leggings worn by a great hero.,&aTake special care of this.'
-      - 'Item:313, Amount:1, Name:&6&lHero Boots, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3,Gears:0-3,Rocket:1,Anti-Gravity:0-5, Lore:&aA special boots worn by a great hero.,&aTake special care of this.'
+      - 'Item:minecraft:diamond_helmet, Amount:1, Name:&6&lHero Helmet, Enchantments:Protection:4,Respiration:3,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:1-5,Hulk:2-3,Glowing:0-1,Implants:0-5, Lore:&aA special helmet worn by a great hero.,&aTake special care of this.'
+      - 'Item:minecraft:diamond_chestplate, Amount:1, Name:&6&lHero Chestplate, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&aA special chestplate worn by a great hero.,&aTake special care of this.'
+      - 'Item:minecraft:diamond_leggings	, Amount:1, Name:&6&lHero Leggings, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&aA special leggings worn by a great hero.,&aTake special care of this.'
+      - 'Item:minecraft:diamond_boots, Amount:1, Name:&6&lHero Boots, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3,Gears:0-3,Rocket:1,Anti-Gravity:0-5, Lore:&aA special boots worn by a great hero.,&aTake special care of this.'
     Commands: #Is used if you wish to use commands to give other things to players.
       - 'ce book overload 5 1 %Player%'
   PeaceKeeper:
     Display:
       Slot: 14
-      Item: '160:11'
+      Item: 'minecraft:blue_stained_glass_pane'
       Glowing: true
       Name: '&9&lThe Peace Keeper GKit'
       Lore:
@@ -77,16 +77,16 @@ GKitz: #GKit optons.
     Auto-Equip: false
     Cooldown: '24h'
     Items:
-      - 'Item:310, Amount:1, Name:&9&lPeace Keeper Helmet, Enchantments:Protection:4,Respiration:3,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:1-5,Hulk:2-3,Glowing:0-1,Implants:0-5, Lore:&9A special helmet worn by a peace keeper.,&9Take special care of this.'
-      - 'Item:311, Amount:1, Name:&9&lPeace Keeper Chestplate, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&9A special chestplate worn by a peace keeper.,&9Take special care of this.'
-      - 'Item:312, Amount:1, Name:&9&lPeace Keeper Leggings, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&9A special leggings worn by a peace keeper.,&9Take special care of this.'
-      - 'Item:313, Amount:1, Name:&9&lPeace Keeper Boots, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3,Gears:0-3,Rocket:1,Anti-Gravity:0-5, Lore:&9A special boots worn by a peace keeper.,&9Take special care of this.'
+      - 'Item:minecraft:diamond_helmet, Amount:1, Name:&9&lPeace Keeper Helmet, Enchantments:Protection:4,Respiration:3,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:1-5,Hulk:2-3,Glowing:0-1,Implants:0-5, Lore:&9A special helmet worn by a peace keeper.,&9Take special care of this.'
+      - 'Item:minecraft:diamond_chestplate, Amount:1, Name:&9&lPeace Keeper Chestplate, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&9A special chestplate worn by a peace keeper.,&9Take special care of this.'
+      - 'Item:minecraft:diamond_leggings	, Amount:1, Name:&9&lPeace Keeper Leggings, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&9A special leggings worn by a peace keeper.,&9Take special care of this.'
+      - 'Item:minecraft:diamond_boots, Amount:1, Name:&9&lPeace Keeper Boots, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3,Gears:0-3,Rocket:1,Anti-Gravity:0-5, Lore:&9A special boots worn by a peace keeper.,&9Take special care of this.'
     Commands:
       - 'ce book overload 5 1 %Player%'
   Villain:
     Display:
       Slot: 16
-      Item: '160:14'
+      Item: 'minecraft:red_stained_glass_pane'
       Glowing: true
       Name: '&4&lThe Villain GKit'
       Lore:
@@ -99,9 +99,9 @@ GKitz: #GKit optons.
     Auto-Equip: false
     Cooldown: '24h'
     Items:
-      - 'Item:310, Amount:1, Name:&4&lVillain Helmet, Enchantments:Protection:4,Respiration:3,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:1-5,Hulk:2-3,Glowing:0-1,Implants:0-5, Lore:&cA special helmet worn by a evil villain.,&cTake special care of this.'
-      - 'Item:311, Amount:1, Name:&4&lVillain Chestplate, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&cA special chestplate worn by a evil villain.,&cTake special care of this.'
-      - 'Item:312, Amount:1, Name:&4&lVillain Leggings, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&cA special leggings worn by a evil villain.,&cTake special care of this.'
-      - 'Item:313, Amount:1, Name:&4&lVillain Boots, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3,Gears:0-3,Rocket:1,Anti-Gravity:0-5, Lore:&cA special boots worn by a evil villain.,&cTake special care of this.'
+      - 'Item:minecraft:diamond_helmet, Amount:1, Name:&4&lVillain Helmet, Enchantments:Protection:4,Respiration:3,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:1-5,Hulk:2-3,Glowing:0-1,Implants:0-5, Lore:&cA special helmet worn by a evil villain.,&cTake special care of this.'
+      - 'Item:minecraft:diamond_chestplate, Amount:1, Name:&4&lVillain Chestplate, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&cA special chestplate worn by a evil villain.,&cTake special care of this.'
+      - 'Item:minecraft:diamond_leggings	, Amount:1, Name:&4&lVillain Leggings, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&cA special leggings worn by a evil villain.,&cTake special care of this.'
+      - 'Item:minecraft:diamond_boots, Amount:1, Name:&4&lVillain Boots, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3,Gears:0-3,Rocket:1,Anti-Gravity:0-5, Lore:&cA special boots worn by a evil villain.,&cTake special care of this.'
     Commands:
       - 'ce book overload 5 1 %Player%'
