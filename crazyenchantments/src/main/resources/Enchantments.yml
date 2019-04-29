@@ -17,7 +17,7 @@ Enchantments:
     Categories: #All the categories the Enchantment can be found in
       - 'Common'
   BurnShield: #Do not change this line.
-    Enabled: false
+    Enabled: true
     Name: 'BurnShield'
     Color: '&7'
     BookColor: '&b&l'
@@ -30,19 +30,15 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Piercing: #Do not change this line.
     Enabled: true
     Name: 'Piercing'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 4
+    MaxPower: 3
     Info:
       Name: '&e&lPiercing &7(&bI-&bIII&7)' 
       Description:
@@ -59,7 +55,7 @@ Enchantments:
     Name: 'OverLoad'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 7
+    MaxPower: 5
     Info:
       Name: '&e&lOverload &7(&bI-&bV&7)'
       Description:
@@ -76,9 +72,9 @@ Enchantments:
     Name: 'SelfDestruct'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 1
+    MaxPower: 2
     Info:
-      Name: '&e&lSelf Destruct &7(&bI-&bV&7)'
+      Name: '&e&lSelf Destruct &7(&bI-&bII&7)'
       Description:
         - '&7When you die there will'
         - '&7be an explosion where you died.'
@@ -93,7 +89,7 @@ Enchantments:
     Name: 'Springs'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 6
+    MaxPower: 5
     Info:
       Name: '&e&lSprings &7(&bI-&bV&7)'
       Description:
@@ -140,7 +136,7 @@ Enchantments:
     Categories:
       - 'Legendary'
   Mermaid: #Do not change this line.
-    Enabled: false
+    Enabled: true
     Name: 'Mermaid'
     Color: '&7'
     BookColor: '&b&l'
@@ -153,13 +149,9 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aHelmets'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Ninja: #Do not change this line.
     Enabled: true
     Name: 'Ninja'
@@ -178,25 +170,21 @@ Enchantments:
     Categories:
       - 'Legendary'
   Vampire: #Do not change this line.
-    Enabled: false
+    Enabled: true
     Name: 'Vampire'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 5
+    MaxPower: 3
     Info:
-      Name: '&e&lVampire &7(&bI-&bV&7)'
+      Name: '&e&lVampire &7(&bI-&bIII&7)'
       Description:
         - '&7Has a chance to heal'
         - '&7you when fighting.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   LifeSteal: #Do not change this line.
     Enabled: true
@@ -211,13 +199,9 @@ Enchantments:
         - '&7health from your enemy.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
         - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
-      - 'Common'
-      - 'Rare'
       - 'Legendary'
   Doctor: #Do not change this line.
     Enabled: false
@@ -266,9 +250,9 @@ Enchantments:
     Name: 'Venom'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 2
+    MaxPower: 3
     Info:
-      Name: '&e&lVenom &7(&bI-&bV&7)'
+      Name: '&e&lVenom &7(&bI-&bIII&7)'
       Description:
         - '&7Has a chance to give'
         - '&7your enemy poison.'
@@ -302,7 +286,7 @@ Enchantments:
     BookColor: '&b&l'
     MaxPower: 1
     Info:
-      Name: '&e&lSlowMo &7(&bI-&bIII&7)'
+      Name: '&e&lSlowMo &7(&bI-&bI&7)'
       Description:
         - '&7Has a chance to give'
         - '&7your enemy slowness.'
@@ -319,7 +303,7 @@ Enchantments:
     BookColor: '&b&l'
     MaxPower: 1
     Info:
-      Name: '&e&lBlindness &7(&bI-&bII&7)'
+      Name: '&e&lBlindness &7(&bI-&bI&7)'
       Description:
         - '&7Has a chance to give'
         - '&7your enemy blindness.'
@@ -351,7 +335,7 @@ Enchantments:
     Name: 'AntiGravity'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 2
+    MaxPower: 3
     Info:
       Name: '&e&lAnti-Gravity &7(&bI-&bIII&7)'
       Description:
@@ -385,7 +369,7 @@ Enchantments:
       - 'Rare'
       - 'Legendary'
   LightWeight: #Do not change this line.
-    Enabled: false
+    Enabled: true
     Name: 'LightWeight'
     Color: '&7'
     BookColor: '&b&l'
@@ -397,14 +381,10 @@ Enchantments:
         - '&7you haste when fighting.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
+        - '&7 - &9&l&nCommon'
         - '&6Enchantable Items: &aSwords'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Blessed: #Do not change this line.
     Enabled: true
     Name: 'Blessed'
@@ -446,7 +426,7 @@ Enchantments:
     BookColor: '&b&l'
     MaxPower: 1
     Info:
-      Name: '&e&lDizzy &7(&bI-&bIII&7)'
+      Name: '&e&lDizzy &7(&bI-&bI&7)'
       Description:
         - '&7Has a chance to give'
         - '&7your enemy confusion.'
@@ -461,7 +441,7 @@ Enchantments:
     Name: 'Berserk'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 4
+    MaxPower: 3
     Info:
       Name: '&e&lBerserk &7(&bI-&bIII&7)'
       Description:
@@ -474,34 +454,30 @@ Enchantments:
     Categories:
       - 'Legendary'
   Cursed: #Do not change this line.
-    Enabled: false
+    Enabled: true
     Name: 'Cursed'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 3
+    MaxPower: 2
     Info:
-      Name: '&e&lCursed &7(&bI-&bIII&7)'
+      Name: '&e&lCursed &7(&bI-&bII&7)'
       Description:
         - '&7Has a chance to give'
         - '&7your enemy mining fatigue.'
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aAxes'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Rekt: #Do not change this line.
     Enabled: true
     Name: 'Slice N Dice'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 4
+    MaxPower: 2
     Info:
-      Name: '&e&lRekt &7(&bI-&bIII&7)'
+      Name: '&e&lRekt &7(&bI-&bII&7)'
       Description:
         - '&7Has a chance to'
         - '&7deal double the damage.'
@@ -516,9 +492,9 @@ Enchantments:
     Name: 'Enlightened'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 4
+    MaxPower: 3
     Info:
-      Name: '&e&lEnlightened &7(&bI-&bV&7)'
+      Name: '&e&lEnlightened &7(&bI-&bIII&7)'
       Description:
         - '&7Has a chance to'
         - '&7heal you while being attacked.'
@@ -529,7 +505,7 @@ Enchantments:
     Categories:
       - 'Rare'
   Freeze: #Do not change this line.
-    Enabled: false
+    Enabled: true
     Name: 'Freeze'
     Color: '&7'
     BookColor: '&b&l'
@@ -542,21 +518,17 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   Fortify: #Do not change this line.
     Enabled: true
     Name: 'Fortify'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 1
+    MaxPower: 2
     Info:
-      Name: '&e&lFortify &7(&bI-&bIII&7)'
+      Name: '&e&lFortify &7(&bI-&bII&7)'
       Description:
         - '&7Has a chance to give'
         - '&7your enemy weakness.'
@@ -573,7 +545,7 @@ Enchantments:
     BookColor: '&b&l'
     MaxPower: 2
     Info:
-      Name: '&e&lMolten &7(&bI-&bV&7)'
+      Name: '&e&lMolten &7(&bI-&bII&7)'
       Description:
         - '&7Has a chance to set'
         - '&7set your enemy on fire.'
@@ -588,18 +560,18 @@ Enchantments:
     Name: 'PainGiver'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 2
+    MaxPower: 3
     Info:
-      Name: '&e&lPain Giver &7(&bI-&bIV&7)'
+      Name: '&e&lPain Giver &7(&bI-&bIII&7)'
       Description:
         - '&7Has a chance to give'
         - '&7your enemy poison.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
+        - '&7 - &a&l&nRare'
         - '&6Enchantable Items: &aArmor'
     Categories:
-      - 'Common'
+      - 'Rare'
   Savior: #Do not change this line.
     Enabled: true
     Name: 'Savior'
@@ -607,7 +579,7 @@ Enchantments:
     BookColor: '&b&l'
     MaxPower: 6
     Info:
-      Name: '&e&lSavior &7(&bI-&bV&7)'
+      Name: '&e&lSavior &7(&bI-&bVI&7)'
       Description:
         - '&7Has a chance to cut'
         - '&7your in-coming damage by half.'
@@ -622,9 +594,9 @@ Enchantments:
     Name: 'Nursery'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 4
+    MaxPower: 3
     Info:
-      Name: '&e&lNursery &7(&bI-&bV&7)'
+      Name: '&e&lNursery &7(&bI-&bIII&7)'
       Description:
         - '&7Has a chance to'
         - '&7heal you while walking.'
@@ -641,7 +613,7 @@ Enchantments:
     BookColor: '&b&l'
     MaxPower: 4
     Info:
-      Name: '&e&lAuto Smelt &7(&bI-&bV&7)'
+      Name: '&e&lAuto Smelt &7(&bI-&bIV&7)'
       Description:
         - '&7Has a chance to auto smelt'
         - '&7ores and give more ingots.'
@@ -656,7 +628,7 @@ Enchantments:
     Name: 'Experience'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 4
+    MaxPower: 3
     Info:
       Name: '&e&lExperience &7(&bI-&bIII&7)'
       Description:
@@ -692,7 +664,7 @@ Enchantments:
     BookColor: '&b&l'
     MaxPower: 2
     Info:
-      Name: '&e&lHaste &7(&bI-&bIII&7)'
+      Name: '&e&lHaste &7(&bI-&bII&7)'
       Description:
         - '&7Gives you haste when'
         - '&7holding the item in your hand.'
@@ -703,7 +675,7 @@ Enchantments:
     Categories:
       - 'Common'
   Oxygenate: #Do not change this line.
-    Enabled: false
+    Enabled: true
     Name: 'Oxygenate'
     Color: '&7'
     BookColor: '&b&l'
@@ -716,15 +688,11 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aTools'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   IceFreeze: #Do not change this line.
-    Enabled: false
+    Enabled: true
     Name: 'IceFreeze'
     Color: '&7'
     BookColor: '&b&l'
@@ -736,14 +704,10 @@ Enchantments:
         - '&7your enemy slowness.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
         - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aBows'
     Categories:
-      - 'Common'
       - 'Rare'
-      - 'Legendary'
   Lightning: #Do not change this line.
     Enabled: false
     Name: 'Lightning'
@@ -789,7 +753,7 @@ Enchantments:
     BookColor: '&b&l'
     MaxPower: 1
     Info:
-      Name: '&e&lConfusion &7(&bI-&bIV&7)'
+      Name: '&e&lConfusion &7(&bI&7)'
       Description:
         - '&7Has a chance to give'
         - '&7your enemy confusion.'
@@ -806,7 +770,7 @@ Enchantments:
     BookColor: '&b&l'
     MaxPower: 2
     Info:
-      Name: '&e&lDisarmer &7(&bI-&bIII&7)'
+      Name: '&e&lDisarmer &7(&bI-&bII&7)'
       Description:
         - '&7Has a chance to take a'
         - '&7random armor piece off your enemy.'
@@ -855,9 +819,9 @@ Enchantments:
     Name: 'Culminate'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 8
+    MaxPower: 7
     Info:
-      Name: '&e&lCulminate &7(&bI-&bV&7)'
+      Name: '&e&lCulminate &7(&bI-&bVII&7)'
       Description:
         - '&7Will double or more XP'
         - '&7based on the enchantment level.'
@@ -889,7 +853,7 @@ Enchantments:
     Name: 'Nutrition'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 2
+    MaxPower: 3
     Info:
       Name: '&e&lNutrition &7(&bI-&bIII&7)'
       Description:
@@ -908,7 +872,7 @@ Enchantments:
     BookColor: '&b&l'
     MaxPower: 4
     Info:
-      Name: '&e&lGoodbye &7(&bI-&bIII&7)'
+      Name: '&e&lGoodbye &7(&bI-&bIV&7)'
       Description:
         - '&7Has a chance to send'
         - '&7your enemy flying backwards.'
@@ -919,7 +883,7 @@ Enchantments:
     Categories:
       - 'Common'
   Paralyze: #Do not change this line.
-    Enabled: false
+    Enabled: true
     Name: 'Paralyze'
     Color: '&7'
     BookColor: '&b&l'
@@ -932,13 +896,9 @@ Enchantments:
         - ''
         - '&6Found in:'
         - '&7 - &a&l&nCommon'
-        - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aSwords'
     Categories:
       - 'Common'
-      - 'Rare'
-      - 'Legendary'
   SkillSwipe: #Do not change this line.
     Enabled: true
     Name: 'SkillSwipe'
@@ -946,7 +906,7 @@ Enchantments:
     BookColor: '&b&l'
     MaxPower: 2
     Info:
-      Name: '&e&lSkill Swipe &7(&bI-&bV&7)'
+      Name: '&e&lSkill Swipe &7(&bI-&bII&7)'
       Description:
         - '&7Has a chance to steal xp'
         - '&7from your enemy while fighting.'
@@ -963,7 +923,7 @@ Enchantments:
     BookColor: '&b&l'
     MaxPower: 2
     Info:
-      Name: '&e&lSnare &7(&bI-&bIII&7)'
+      Name: '&e&lSnare &7(&bI-&bII&7)'
       Description:
         - '&7Has a chance to give your'
         - '&7enemy slowness and mining fatigue.'
@@ -995,7 +955,7 @@ Enchantments:
     Name: 'Wither'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 2
+    MaxPower: 3
     Info:
       Name: '&e&lWither &7(&bI-&bIII&7)'
       Description:
@@ -1014,7 +974,7 @@ Enchantments:
     BookColor: '&b&l'
     MaxPower: 5
     Info:
-      Name: '&e&lRage &7(&bI-&bIII&7)'
+      Name: '&e&lRage &7(&bI-&bV&7)'
       Description:
         - '&7Attacks will get stronger'
         - '&7as long as you keep fightning.'
@@ -1029,7 +989,7 @@ Enchantments:
     Name: 'Valor'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 3
+    MaxPower: 2
     Info:
       Name: '&e&lValor &7(&bI-&bII&7)'
       Description:
@@ -1048,7 +1008,7 @@ Enchantments:
     BookColor: '&b&l'
     MaxPower: 1
     Info:
-      Name: '&e&lSmoke Bomb &7(&bI-&bIII&7)'
+      Name: '&e&lSmoke Bomb &7(&bI&7)'
       Description:
         - '&7Has a chance to blind and'
         - '&7slow your enemy so you can escape.'
@@ -1063,7 +1023,7 @@ Enchantments:
     Name: 'Maniac'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 4
+    MaxPower: 3
     Info:
       Name: '&e&lManiac &7(&bI-&bIII&7)'
       Description:
@@ -1071,10 +1031,10 @@ Enchantments:
         - '&7and slowness when put on.'
         - ''
         - '&6Found in:'
-        - '&7 - &4&l&nLegendary'
+        - '&7 - &4&l&nRare'
         - '&6Enchantable Items: &aArmor'
     Categories:
-      - 'Legendary'
+      - 'Rare'
   Voodoo: #Do not change this line.
     Enabled: true
     Name: 'Voodoo'
@@ -1082,7 +1042,7 @@ Enchantments:
     BookColor: '&b&l'
     MaxPower: 2
     Info:
-      Name: '&e&lVoodoo &7(&bI-&bIII&7)'
+      Name: '&e&lVoodoo &7(&bI-&bII&7)'
       Description:
         - '&7Has a chance to give'
         - '&7your enemy weakness.'
@@ -1097,9 +1057,9 @@ Enchantments:
     Name: 'MultiArrow'
     Color: '&7'
     BookColor: '&b&l'
-    MaxPower: 4
+    MaxPower: 3
     Info:
-      Name: '&e&lMultiArrow &7(&bI-&bV&7)'
+      Name: '&e&lMultiArrow &7(&bI-&bIII&7)'
       Description:
         - '&7Has a chance to shoot'
         - '&7multiple arrows at once.'
@@ -1139,14 +1099,10 @@ Enchantments:
         - '&7the player that hits you.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
         - '&7 - &9&l&nRare'
-        - '&7 - &4&l&nLegendary'
         - '&6Enchantable Items: &aArmor'
     Categories:
-      - 'Common'
       - 'Rare'
-      - 'Legendary'
   Rocket: #Do not change this line.
     Enabled: true
     Name: 'Rocket'
@@ -1355,13 +1311,13 @@ Enchantments:
     Categories:
       - 'Rare'
   AcidRain: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'AcidRain'
     Color: '&7'
     BookColor: '&b&l'
     MaxPower: 2
     Info:
-      Name: '&e&lAcidRain &7(&bI-&bIII&7)'
+      Name: '&e&lAcidRain &7(&bI-&bII&7)'
       Description:
         - '&7Gives enemies within 3'
         - '&7blocks poison for a short time.'
@@ -1389,7 +1345,7 @@ Enchantments:
     Categories:
       - 'Common'
   Radiant: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'Radiant'
     Color: '&7'
     BookColor: '&b&l'
@@ -1406,7 +1362,7 @@ Enchantments:
     Categories:
       - 'Rare'
   Intimidate: #Do not change this line.
-    Enabled: true
+    Enabled: false
     Name: 'Intimidate'
     Color: '&7'
     BookColor: '&b&l'
@@ -1435,10 +1391,10 @@ Enchantments:
         - '&7the enemy you hit flying at you.'
         - ''
         - '&6Found in:'
-        - '&7 - &a&l&nCommon'
+        - '&7 - &a&l&nRare'
         - '&6Enchantable Items: &aBows'
     Categories:
-      - 'Common'
+      - 'Rare'
   Tamer: #Do not change this line.
     Enabled: false
     Name: 'Tamer'
