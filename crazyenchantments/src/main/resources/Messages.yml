@@ -48,21 +48,22 @@ Messages:
     Destroyed: '&cYour upgrade failed and the lower level enchantment was lost.'
     Failed: '&cThe book failed to upgrade to the item.'
   Rage:
-    Building: '&7[&c&lRage&7]: &aKeep it up, your rage is building.'
-    Cooled-Down: '&7[&c&lRage&7]: &cYour Rage has just cooled down.'
-    Rage-Up: '&7[&c&lRage&7]: &7You are now doing &a%Level%x &7Damage.'
-    Damaged: '&7[&c&lRage&7]: &cYou have been hurt and it broke your Rage Multiplier!'
+#    Building: '&7[&c&lRage&7]: &aKeep it up, your rage is building.'
+    Building: '&9Rage> &7Keep it up, your rage is building.'
+    Cooled-Down: '&9Rage> &7Your Rage has just cooled down.'
+    Rage-Up: '&9Rage> &7You are now doing &a%Level%x &7Damage.'
+    Damaged: '&9Rage> &7You have been hurt and it broke your Rage Multiplier!'
   InfoGUI:
     Inventory:
       Size: 18
       Name: '&c&lEnchantment Info'
     Categories-Info:
       Back:
-        Item: minecraft:spectral_arrow
+        Item: 399
         Right: '&7&l<<&b&lBack'
         Left: '&b&lBack&7&l>>'
       Helmets:
-        Item: minecraft:turtle_helmet
+        Item: 314
         Slot: 1
         Name: '&e&lHelmet Enchantments'
         Lore:
@@ -73,7 +74,7 @@ Messages:
           - '&a- Iron Helmet'
           - '&a- Diamond Helmet'
       Boots:
-        Item: minecraft:chainmail_boots
+        Item: 317
         Slot: 2
         Name: '&e&lBoot Enchantments'
         Lore:
@@ -84,7 +85,7 @@ Messages:
           - '&a- Iron Boots'
           - '&a- Diamond Boots'
       Armor:
-        Item: minecraft:iron_chestplate
+        Item: 315
         Slot: 3
         Name: '&e&lArmor Enchantments'
         Lore:
@@ -95,14 +96,14 @@ Messages:
           - '&a- Iron Armor'
           - '&a- Diamond Armor'
       Bow:
-        Item: minecraft:bow
+        Item: 261
         Slot: 4
         Name: '&e&lBow Enchantments'
         Lore:
           - '&cEnchantable Items:'
           - '&a- Bow'
       Sword:
-        Item: minecraft:wooden_sword
+        Item: 283
         Slot: 5
         Name: '&e&lSword Enchantments'
         Lore:
@@ -113,7 +114,7 @@ Messages:
           - '&a- Iron Sword'
           - '&a- Diamond Sword'
       Axe:
-        Item: minecraft:diamond_axe	
+        Item: 286
         Slot: 6
         Name: '&e&lAxe Enchantments'
         Lore:
@@ -124,7 +125,7 @@ Messages:
           - '&a- Iron Axe'
           - '&a- Diamond Axe'
       Tool:
-        Item: minecraft:stone_hoe
+        Item: 294
         Slot: 7
         Name: '&e&lTool Enchantments'
         Lore:
@@ -134,7 +135,7 @@ Messages:
           - '&a- All Shovels'
           - '&a- All Hoes'
       Pickaxe:
-        Item: minecraft:golden_pickaxe
+        Item: 285
         Slot: 8
         Name: '&e&lPickaxe Enchantments'
         Lore:
@@ -145,14 +146,14 @@ Messages:
           - '&a- Iron Pickaxe'
           - '&a- Diamond Pickaxe'
       Misc:
-        Item: minecraft:compass	
+        Item: 345
         Slot: 9
         Name: '&e&lMisc Enchantments'
         Lore:
           - '&aRead enchantment to'
           - '&aSee enchantable Items.'
       Other:
-        Item: minecraft:ender_eye	
+        Item: 381
         Slot: 14
         Name: '&e&lOther Info'
         Lore:
