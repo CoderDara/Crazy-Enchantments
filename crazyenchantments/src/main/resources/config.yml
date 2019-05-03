@@ -130,7 +130,7 @@
         - '&aMagical AngelDust &7or &eMagical Fixing &7Dust'
         - '&7&l(&6&l!&7&l) &7Right click'
       Firework:
-        Toggle: true #Toggle if the firework happens on open.
+        Toggle: false #Toggle if the firework happens on open.
         Colors: 'Black, Gray, Lime' #The colors the firework will be.
       Dust-Toggle:
         Success: true #Toggle whether you can get success dust from Mystery Dust.
