@@ -181,7 +181,7 @@ Settings:
         - '&7It is now useless unless you'
         - '&7needed to make TNT or a throwable potion.'
   BlackScroll: #Settings for the black scrolls
-    Item: minecraft:ink_sac #The item the black scroll can be
+    Item: minecraft:351 #The item the black scroll can be
     Name: '&8&l&nBlack Scroll' #The name of the black scroll
     Item-Lore: #The lore that will be on the black scroll.
       - '&7Have a custom enchantment you don''t want?'
