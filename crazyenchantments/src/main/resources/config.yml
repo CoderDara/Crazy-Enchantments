@@ -1,4 +1,4 @@
-Settings:
+ Settings:
   Prefix: '&9Enchantments> ' #The prefix in the messages
   Update-Checker: true #Toggle on and off if you get a update message when you join if there is a new update.
   Player-Info-Backup-Message: true #Toggle this on and off if you wish to see when the players data gets backed up.
@@ -123,7 +123,7 @@ Settings:
       - '&b>>&7&nClick to view&b<<'
   Dust: #Settings for the Magical Dust
     MysteryDust:
-      Item: minecraft:gunpowder #Item mystery dust is
+      Item: minecraft:sugar #Item mystery dust is
       Name: '&7Mystery Dust' #Name of the dust
       Lore: #Use %Percent% to set the percent
         - '&a1-%Percent%% &7will be on a'
@@ -174,7 +174,7 @@ Settings:
         Max: 10 #Max percent
         Min: 2 #Minimum percent
     FailedDust:
-      Item: minecraft:magma_cream #Item the dust is
+      Item: minecraft:gunpowder #Item the dust is
       Name: '&7Failed Dust' #Name of the dust
       Lore: #Lore for the dust
         - '&7This dust has failed.'
