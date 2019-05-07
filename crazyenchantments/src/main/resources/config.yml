@@ -4,7 +4,7 @@
   Player-Info-Backup-Message: true #Toggle this on and off if you wish to see when the players data gets backed up.
   Reset-Players-Max-Health: true #This is for some servers that get a health duplication glitch from plugins like CombatTagPlus(v1.2.3 down)
   InvName: '&4&l&nVEMS Enchant Shop' #The name of the /CE inventory
-  Enchantment-Book-Item: minecraft:book #The item that the enchantment book is.
+  Enchantment-Book-Item: BOOK #The item that the enchantment book is.
   Enchantment-Book-Glowing: true #Toggle on or off if the book will have an enchanted look.
   GUISize: 54 #The size of the GUI, must be a factor of 9
   EnchantmentBookLore: #The lore on the enchantments books.
@@ -14,7 +14,7 @@
     - '&4%Destroy_Rate%% Destroy Chance'
     - '&a%Success_Rate%% Success Chance'
   LostBook: #Lost book options.
-    Item: minecraft:book #The item the lost books is.
+    Item: BOOK #The item the lost books is.
     Name: '&8&l&nA Lost %Category%&8&l&n Book' #The name of the lost books.
     Lore: #The lore of the lost books.
       - '&7This book has been lost for centuries'
@@ -22,7 +22,7 @@
       - '&7But you must clean it off to find out what kind it is.'
       - '&7&l(&6&l!&7&l) &7Right Click to clean off.'
   Scrambler:
-    Item: minecraft:sunflower #The item it will be.
+    Item: SUNFLOWER #The item it will be.
     Glowing: true #If it has the glowing effect.
     Name: '&e&lThe Grand Scrambler' #The name of the item.
     Lore: #The lore of the item.
@@ -34,7 +34,7 @@
       Name: '&8Rolling the &eScrambler' #Name of the GUI.
       Toggle: true #If the GUI will show. Warning>> This may cause lag if a lot of players are using it all the time.
       Pointer: #The pointer in the middle of the GUI.
-        Item: minecraft:redstone_torch #The item the pointer is.
+        Item: REDSTONE_TORCH #The item the pointer is.
         Name: '&c&lPointer' #The name of the pointer.
         Lore: #The lore on the pointer.
           - '&7Whatever percents the item lands on'
@@ -52,7 +52,7 @@
   GKitz: #GKitz GUI option.
     InGUI: false #If you can open the GKitz GUI from the main /ce gui.
     Slot: 1 #The slot it will be in.
-    Item: minecraft:golden_chestplate #The item it is.
+    Item: DIAMOND_CHESTPLATE #The item it is.
     Glowing: true #If the item has a glowing effect.
     Name: '&c&lGKitz' #The name of the item.
     Lore: #The lore of the item.
@@ -60,7 +60,7 @@
   ProtectionCrystal:
     InGUI: false #If its in the GUI.
     Slot: 1 #Slot it is in
-    Item: minecraft:gold_nugget #Item it is
+    Item: EMERALD #Item it is
     Glowing: true #If it is enchanted
     Protected: '&6Ancient Protection' #The lore that goes on the item that is protected.
     Lose-Protection-On-Death: true #If true then when the player dies they get the item but it loses its protection.
@@ -84,7 +84,7 @@
   BlackSmith: #Options for the Black Smith
     InGUI: true #In the GUI.
     Slot: 24 #Slot it is in.
-    Item: minecraft:chipped_anvil #Item that shows in the GUI
+    Item: ANVIL #Item that shows in the GUI
     Glowing: false #Is it enchanted
     Name: '&7&lThe &b&lBlack &9&lSmith' #Name of the Item in the GUI
     Lore: #Lore on the item.
@@ -108,7 +108,7 @@
   Tinker: #Settings for Info item in the GUI
     InGUI: true #Toggle whether it is in the /CE GUI or not
     Slot: 22 #Slot it is in
-    Item: minecraft:nether_star #Item it is
+    Item: NETHER_STAR #Item it is
     Glowing: false #Whether it glows like its enchanted
     Name: '&7&lThe &b&lCrazy &9&lTinkerer' #Name of the Item
     Lore: #Lore of the item
@@ -116,14 +116,14 @@
   Info: #Settings for Info item in the GUI
     InGUI: true #Toggle whether it is in the /CE GUI or not
     Slot: 23 #Slot it is in
-    Item: minecraft:compass #Item it is
+    Item: COMPASS #Item it is
     Glowing: true #Whether it glows like its enchanted
     Name: '&eInfo on the Enchantments' #Name of the Item
     Lore: #Lore of the item
       - '&b>>&7&nClick to view&b<<'
   Dust: #Settings for the Magical Dust
     MysteryDust:
-      Item: minecraft:sugar #Item mystery dust is
+      Item: GUNPOWDER #Item mystery dust is
       Name: '&7Mystery Dust' #Name of the dust
       Lore: #Use %Percent% to set the percent
         - '&a1-%Percent%% &7will be on a'
@@ -147,7 +147,7 @@
         - '&7Dust allows you to bring'
         - '&7up your &aSuccess Rate&7.'
       Slot: 25 #Slot number it is in
-      Item: minecraft:glowstone_dust #Item the dust is
+      Item: SUGAR #Item the dust is
       Name: '&aMagical Angel Dust' #Name of the dust
       Lore: #Lore for the dust
         - '&a+%Percent%% Success Rate'
@@ -164,7 +164,7 @@
         - '&7Dust allows you to bring'
         - '&7down your &4Destroy Rate&7.'
       Slot: 34 #Slot number it is in
-      Item: minecraft:redstone #Item the dust is
+      Item: REDSTONE #Item the dust is
       Name: '&eMagical Fixing Dust' #Name of the dust
       Lore: #Lore for the dust
         - '&c-%Percent%% Destroy Rate'
@@ -174,14 +174,14 @@
         Max: 10 #Max percent
         Min: 2 #Minimum percent
     FailedDust:
-      Item: minecraft:gunpowder #Item the dust is
+      Item: GUNPOWDER #Item the dust is
       Name: '&7Failed Dust' #Name of the dust
       Lore: #Lore for the dust
         - '&7This dust has failed.'
         - '&7It is now useless unless you'
         - '&7needed to make TNT or a throwable potion.'
   BlackScroll: #Settings for the black scrolls
-    Item: 'INK_SAC' #The item the black scroll can be
+    Item: INK_SACK #The item the black scroll can be
     Name: '&8&l&nBlack Scroll' #The name of the black scroll
     Item-Lore: #The lore that will be on the black scroll.
       - '&7Have a custom enchantment you don''t want?'
@@ -205,7 +205,7 @@
       Max: 45 #The Max percent
       Min: 0 #The Minimum percent
   WhiteScroll:
-    Item: minecraft:paper #The item the white scroll is.
+    Item: PAPER #The item the white scroll is.
     Name: '&e&lWhite Scroll' #The name of the white scrolls.
     Item-Lore: #The lore that will be on the white scroll.
       - '&7Want to protect an item from a book''s destroy rate?'
@@ -221,7 +221,7 @@
       - '&7protect items from breaking.'
     ProtectedName: '&b&lPROTECTED' #The lore that is added to protect an item.
   TransmogScroll:
-    Item: minecraft:quartz #The item the scroll is.
+    Item: QUARTZ #The item the scroll is.
     Name: '&d&lTransmog Scroll' #The name of the scroll.
     Item-Lore: #The lore that will be on the scroll.
       - '&7This scroll allows you to organize'
@@ -341,50 +341,50 @@
   #Placeholders: %vault% %xp_level% %xp_total%
   #####################
  GUICustomization: #This allows you to customize unclickable items into you GUI.
-    - 'Slot:1, Item:160:15, Name: '
-    - 'Slot:2, Item:160:15, Name: '
-    - 'Slot:3, Item:160:15, Name: '
-    - 'Slot:4, Item:160:15, Name: '
-    - 'Slot:5, Item:160:15, Name: '
-    - 'Slot:6, Item:160:15, Name: '
-    - 'Slot:7, Item:160:15, Name: '
-    - 'Slot:8, Item:160:15, Name: '
-    - 'Slot:9, Item:160:15, Name: '
-    - 'Slot:10, Item:160:15, Name: '
-    - 'Slot:18, Item:160:15, Name: '
-    - 'Slot:19, Item:160:15, Name: '
-    - 'Slot:27, Item:160:15, Name: '
-    - 'Slot:28, Item:160:15, Name: '
-    - 'Slot:36, Item:160:15, Name: '
-    - 'Slot:37, Item:160:15, Name: '
-    - 'Slot:45, Item:160:15, Name: '
-    - 'Slot:46, Item:160:15, Name: '
-    - 'Slot:47, Item:160:15, Name: '
-    - 'Slot:48, Item:160:15, Name: '
-    - 'Slot:49, Item:160:15, Name: '
-    - 'Slot:50, Item:160:15, Name: '
-    - 'Slot:51, Item:160:15, Name: '
-    - 'Slot:52, Item:160:15, Name: '
-    - 'Slot:53, Item:160:15, Name: '
-    - 'Slot:54, Item:160:15, Name: '
-    - 'Slot:11, Item:160:0, Name: '
-    - 'Slot:12, Item:160:0, Name: '
-    - 'Slot:13, Item:160:0, Name: '
-    - 'Slot:14, Item:160:0, Name: '
-    - 'Slot:15, Item:160:0, Name: '
-    - 'Slot:16, Item:160:0, Name: '
-    - 'Slot:17, Item:160:0, Name: '
-    - 'Slot:20, Item:160:0, Name: '
-    - 'Slot:26, Item:160:0, Name: '
-    - 'Slot:29, Item:160:0, Name: '
-    - 'Slot:35, Item:160:0, Name: '
-    - 'Slot:38, Item:160:0, Name: '
-    - 'Slot:39, Item:160:0, Name: '
-    - 'Slot:40, Item:160:0, Name: '
-    - 'Slot:41, Item:160:0, Name: '
-    - 'Slot:42, Item:160:0, Name: '
-    - 'Slot:43, Item:160:0, Name: '
-    - 'Slot:44, Item:160:0, Name: '
+    - 'Slot:1, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:2, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:3, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:4, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:5, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:6, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:7, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:8, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:9, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:10, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:18, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:19, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:27, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:28, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:36, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:37, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:45, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:46, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:47, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:48, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:49, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:50, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:51, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:52, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:53, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:54, Item:BLACK_SHULKER_BOX, Name: '
+    - 'Slot:11, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:12, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:13, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:14, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:15, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:16, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:17, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:20, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:26, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:29, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:35, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:38, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:39, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:40, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:41, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:42, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:43, Item:WHITE_SHULKER_BOX, Name: '
+    - 'Slot:44, Item:WHITE_SHULKER_BOX, Name: '
 Categories: #You can make as many different categories as you want
   Common: #Name of the category
     Name: '&a&l&nCommon' #Name in the GUI
@@ -392,7 +392,7 @@ Categories: #You can make as many different categories as you want
     InGUI: true #Toggle if it's in the GUI or not.
     Lore: #The lore of the Item
       - '&eCost: &6&l20 &6XP Levels'
-    Item: minecraft:light_gray_stained_glass_pane #The id for the item
+    Item: LIME_SHULKER_BOX #The id for the item
     Glowing: true #If the item is glowing in the GUI.
     Cost: 30 #How much each book will cost to buy.
     Currency: XP_Level #The currency you wish to use. https://github.com/kicjow/Crazy-Enchantments/wiki/Currency-Types
@@ -400,7 +400,7 @@ Categories: #You can make as many different categories as you want
     LostBook: #Controls the Lost Book shop for this tier
       InGUI: false #If it shows in the /CE Gui
       Slot: 1 #Slot it will be in
-      Item: minecraft:book #The item that is shown in the GUI
+      Item: BOOK #The item that is shown in the GUI
       Glowing: false #Is it enchanted
       Name: '&8&l&nLost&c&l Tier1 &8&l&nBooks' #Name of the item
       Lore: #Lore on the item
@@ -438,7 +438,7 @@ Categories: #You can make as many different categories as you want
     InGUI: true
     Lore:
       - '&eCost: &6&l40 &6XP Levels'
-    Item: minecraft:blue_stained_glass_pane
+    Item: BLUE_SHULKER_BOX
     Glowing: true
     Cost: 50
     Currency: XP_Level
@@ -446,7 +446,7 @@ Categories: #You can make as many different categories as you want
     LostBook:
       InGUI: false
       Slot: 2
-      Item: minecraft:book
+      Item: BOOK
       Glowing: false
       Name: '&8&l&nLost&c&l Tier2 &8&l&nBooks'
       Lore:
@@ -479,7 +479,7 @@ Categories: #You can make as many different categories as you want
     InGUI: true
     Lore:
       - '&eCost: &6&l60 &6XP Levels'
-    Item: minecraft:yellow_stained_glass_pane
+    Item: RED_SHULKER_BOX
     Glowing: true
     Cost: 60
     Currency: XP_Level
@@ -487,7 +487,7 @@ Categories: #You can make as many different categories as you want
     LostBook:
       InGUI: false
       Slot: 3
-      Item: minecraft:book
+      Item: BOOK
       Glowing: false
       Name: '&8&l&nLost&c&l Tier3 &8&l&nBooks'
       Lore:
