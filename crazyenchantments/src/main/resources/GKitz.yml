@@ -42,7 +42,7 @@ GKitz: #GKit optons.
   Hero: #Name of the GKit.
     Display: #All the display option in the gui.
       Slot: 12 #Slot the item is located at in the gui.
-      Item: 'minecraft:grass_block' #The item that is displayed for the GKit.
+      Item: 'minecraft:cobblestone' #The item that is displayed for the GKit.
       Glowing: true #Toggle on or off if the item has an enchanted effect.
       Name: '&6&lThe Hero GKit' #Display name of the GKit.
       Lore: #The lore that goes on the display item.
