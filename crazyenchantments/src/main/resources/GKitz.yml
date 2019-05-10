@@ -105,3 +105,15 @@ GKitz: #GKit optons.
       - 'Item:minecraft:diamond_boots, Amount:1, Name:&4&lVillain Boots, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3,Gears:0-3,Rocket:1,Anti-Gravity:0-5, Lore:&cA special boots worn by a evil villain.,&cTake special care of this.'
     Commands:
       - 'ce book overload 5 1 %Player%'
+      TestSword:
+    Display:
+      Slot: 12
+      Item: 'minecraft:diamond_sword'
+      Glowing: true
+      Name: '&4&lA random sword'
+      Lore:
+        - '&7This is a test'
+    Auto-Equip: false
+    Cooldown: '24h'
+    Items:
+      - 'Item:minecraft:diamond_sword, Amount:1, Name:&4&lTest Sword, Enchantments:Sharpness:1-5,Unbreaking:1-3,Sweeping_Edge:0-3,Fire_Aspect:0-2,Knockback:0-2 CustomEnchantments:Life_Steal:0-5,Double_Damage:0-3,SlowMo:0-3,Blindness:0-2,Viper:0-3,Confusion:0-4,Disarmer:0-3,Execute:0-4,Headless:0-5,Culminate:0-5,Nutrition:0-3,Goodbye:0-3,Skill_Swipe:0-5,Snare:0-3,Quagmire:0-2,Wither:0-3,Rage:0-3,Slice:0-2 Lore:&cThis better work.,&cor else i will vore ethan.'
