@@ -105,7 +105,7 @@ GKitz: #GKit optons.
       - 'Item:minecraft:diamond_boots, Amount:1, Name:&4&lVillain Boots, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3,Gears:0-3,Rocket:1,Anti-Gravity:0-5, Lore:&cA special boots worn by a evil villain.,&cTake special care of this.'
     Commands:
       - 'ce book overload 5 1 %Player%'
-      TestSword:
+  TestSword:
     Display:
       Slot: 12
       Item: 'minecraft:diamond_sword'
