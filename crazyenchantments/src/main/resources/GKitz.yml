@@ -2,30 +2,29 @@ Settings:
   GUI-Size: 27 #Must be a factor of 9.
   Inventory-Name: '&8Epic GKitz'
   GUI-Customization: #This allows you to customize unclickable items into you GUI.
-    - 'Slot:1, dirt, Name: '
-    - 'Slot:2, dirt, Name: '
-    - 'Slot:3, dirt, Name: '
-    - 'Slot:4, dirt, Name: '
-    - 'Slot:5, dirt, Name: '
-    - 'Slot:6, dirt, Name: '
-    - 'Slot:7, dirt, Name: '
-    - 'Slot:8, dirt, Name: '
-    - 'Slot:9, dirt, Name: '
-    - 'Slot:10, dirt, Name: '
-    - 'Slot:11, dirt, Name: '
-    - 'Slot:13, dirt, Name: '
-    - 'Slot:15, dirt, Name: '
-    - 'Slot:17, dirt, Name: '
-    - 'Slot:18, dirt, Name: '
-    - 'Slot:19, dirt, Name: '
-    - 'Slot:20, dirt, Name: '
-    - 'Slot:21, dirt, Name: '
-    - 'Slot:22, dirt, Name: '
-    - 'Slot:23, dirt, Name: '
-    - 'Slot:24, dirt, Name: '
-    - 'Slot:25, dirt, Name: '
-    - 'Slot:26, dirt, Name: '
-    - 'Slot:27, dirt, Name: '
+    - 'Slot:1, Item:dirt, Name: '
+    - 'Slot:2, Item:dirt, Name: '
+    - 'Slot:3, Item:dirt, Name: '
+    - 'Slot:4, Item:dirt, Name: '
+    - 'Slot:5, Item:dirt, Name: '
+    - 'Slot:6, Item:dirt, Name: '
+    - 'Slot:7, Item:dirt, Name: '
+    - 'Slot:8, Item:dirt, Name: '
+    - 'Slot:9, Item:dirt, Name: '
+    - 'Slot:10, Item:dirt, Name: '
+    - 'Slot:11, Item:dirt, Name: '
+    - 'Slot:15, Item:dirt, Name: '
+    - 'Slot:17, Item:dirt, Name: '
+    - 'Slot:18, Item:dirt, Name: '
+    - 'Slot:19, Item:dirt, Name: '
+    - 'Slot:20, Item:dirt, Name: '
+    - 'Slot:21, Item:dirt, Name: '
+    - 'Slot:22, Item:dirt, Name: '
+    - 'Slot:23, Item:dirt, Name: '
+    - 'Slot:24, Item:dirt, Name: '
+    - 'Slot:25, Item:dirt, Name: '
+    - 'Slot:26, Item:dirt, Name: '
+    - 'Slot:27, Item:dirt, Name: '
 ###################################
 #             Items: Options
 # Item: <ID:MD> - You can choose the item with its id and meta data.
@@ -42,7 +41,7 @@ GKitz: #GKit optons.
   Hero: #Name of the GKit.
     Display: #All the display option in the gui.
       Slot: 12 #Slot the item is located at in the gui.
-      Item: 'minecraft:cobblestone' #The item that is displayed for the GKit.
+      Item: 'Item:cobblestone' #The item that is displayed for the GKit.
       Glowing: true #Toggle on or off if the item has an enchanted effect.
       Name: '&6&lThe Hero GKit' #Display name of the GKit.
       Lore: #The lore that goes on the display item.
@@ -55,16 +54,16 @@ GKitz: #GKit optons.
     Auto-Equip: false #If armor is auto equipped onto the player if the slots are available.
     Cooldown: '24h' #Cooldown for the GKit. Available options d - Day, h - Hour, m - Minute, s - Second
     Items: #The items that are given the players. 
-      - 'Item:minecraft:diamond_helmet, Amount:1, Name:&6&lHero Helmet, Enchantments:Protection:4,Respiration:3,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:1-5,Hulk:2-3,Glowing:0-1,Implants:0-5, Lore:&aA special helmet worn by a great hero.,&aTake special care of this.'
-      - 'Item:minecraft:diamond_chestplate, Amount:1, Name:&6&lHero Chestplate, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&aA special chestplate worn by a great hero.,&aTake special care of this.'
-      - 'Item:minecraft:diamond_leggings	, Amount:1, Name:&6&lHero Leggings, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&aA special leggings worn by a great hero.,&aTake special care of this.'
-      - 'Item:minecraft:diamond_boots, Amount:1, Name:&6&lHero Boots, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3,Gears:0-3,Rocket:1,Anti-Gravity:0-5, Lore:&aA special boots worn by a great hero.,&aTake special care of this.'
+      - 'Item:diamond_helmet, Amount:1, Name:&6&lHero Helmet, Enchantments:Protection:4,Respiration:3,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:1-5,Hulk:2-3,Glowing:0-1,Implants:0-5, Lore:&aA special helmet worn by a great hero.,&aTake special care of this.'
+      - 'Item:diamond_chestplate, Amount:1, Name:&6&lHero Chestplate, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&aA special chestplate worn by a great hero.,&aTake special care of this.'
+      - 'Item:diamond_leggings	, Amount:1, Name:&6&lHero Leggings, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&aA special leggings worn by a great hero.,&aTake special care of this.'
+      - 'Item:diamond_boots, Amount:1, Name:&6&lHero Boots, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3,Gears:0-3,Rocket:1,Anti-Gravity:0-5, Lore:&aA special boots worn by a great hero.,&aTake special care of this.'
     Commands: #Is used if you wish to use commands to give other things to players.
       - 'ce book overload 5 1 %Player%'
   PeaceKeeper:
     Display:
       Slot: 14
-      Item: 'minecraft:sand'
+      Item: 'Item:sand'
       Glowing: true
       Name: '&9&lThe Peace Keeper GKit'
       Lore:
@@ -77,16 +76,16 @@ GKitz: #GKit optons.
     Auto-Equip: false
     Cooldown: '24h'
     Items:
-      - 'Item:minecraft:diamond_helmet, Amount:1, Name:&9&lPeace Keeper Helmet, Enchantments:Protection:4,Respiration:3,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:1-5,Hulk:2-3,Glowing:0-1,Implants:0-5, Lore:&9A special helmet worn by a peace keeper.,&9Take special care of this.'
-      - 'Item:minecraft:diamond_chestplate, Amount:1, Name:&9&lPeace Keeper Chestplate, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&9A special chestplate worn by a peace keeper.,&9Take special care of this.'
-      - 'Item:minecraft:diamond_leggings	, Amount:1, Name:&9&lPeace Keeper Leggings, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&9A special leggings worn by a peace keeper.,&9Take special care of this.'
-      - 'Item:minecraft:diamond_boots, Amount:1, Name:&9&lPeace Keeper Boots, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3,Gears:0-3,Rocket:1,Anti-Gravity:0-5, Lore:&9A special boots worn by a peace keeper.,&9Take special care of this.'
+      - 'Item:Item:diamond_helmet, Amount:1, Name:&9&lPeace Keeper Helmet, Enchantments:Protection:4,Respiration:3,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:1-5,Hulk:2-3,Glowing:0-1,Implants:0-5, Lore:&9A special helmet worn by a peace keeper.,&9Take special care of this.'
+      - 'Item:Item:diamond_chestplate, Amount:1, Name:&9&lPeace Keeper Chestplate, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&9A special chestplate worn by a peace keeper.,&9Take special care of this.'
+      - 'Item:Item:diamond_leggings	, Amount:1, Name:&9&lPeace Keeper Leggings, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&9A special leggings worn by a peace keeper.,&9Take special care of this.'
+      - 'Item:Item:diamond_boots, Amount:1, Name:&9&lPeace Keeper Boots, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3,Gears:0-3,Rocket:1,Anti-Gravity:0-5, Lore:&9A special boots worn by a peace keeper.,&9Take special care of this.'
     Commands:
       - 'ce book overload 5 1 %Player%'
   Villain:
     Display:
       Slot: 16
-      Item: 'minecraft:pumpkin'
+      Item: 'Item:pumpkin'
       Glowing: true
       Name: '&4&lThe Villain GKit'
       Lore:
@@ -99,16 +98,16 @@ GKitz: #GKit optons.
     Auto-Equip: false
     Cooldown: '24h'
     Items:
-      - 'Item:minecraft:diamond_helmet, Amount:1, Name:&4&lVillain Helmet, Enchantments:Protection:4,Respiration:3,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:1-5,Hulk:2-3,Glowing:0-1,Implants:0-5, Lore:&cA special helmet worn by a evil villain.,&cTake special care of this.'
-      - 'Item:minecraft:diamond_chestplate, Amount:1, Name:&4&lVillain Chestplate, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&cA special chestplate worn by a evil villain.,&cTake special care of this.'
-      - 'Item:minecraft:diamond_leggings	, Amount:1, Name:&4&lVillain Leggings, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&cA special leggings worn by a evil villain.,&cTake special care of this.'
-      - 'Item:minecraft:diamond_boots, Amount:1, Name:&4&lVillain Boots, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3,Gears:0-3,Rocket:1,Anti-Gravity:0-5, Lore:&cA special boots worn by a evil villain.,&cTake special care of this.'
+      - 'Item:diamond_helmet, Amount:1, Name:&4&lVillain Helmet, Enchantments:Protection:4,Respiration:3,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:1-5,Hulk:2-3,Glowing:0-1,Implants:0-5, Lore:&cA special helmet worn by a evil villain.,&cTake special care of this.'
+      - 'Item:diamond_chestplate, Amount:1, Name:&4&lVillain Chestplate, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&cA special chestplate worn by a evil villain.,&cTake special care of this.'
+      - 'Item:diamond_leggings	, Amount:1, Name:&4&lVillain Leggings, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3, Lore:&cA special leggings worn by a evil villain.,&cTake special care of this.'
+      - 'Item:diamond_boots, Amount:1, Name:&4&lVillain Boots, Enchantments:Protection:4,Thorns:3,Aqua_Affinity:1, CustomEnchantments:Overload:0-5,Hulk:2-3,Gears:0-3,Rocket:1,Anti-Gravity:0-5, Lore:&cA special boots worn by a evil villain.,&cTake special care of this.'
     Commands:
       - 'ce book overload 5 1 %Player%'
   TestSword:
     Display:
       Slot: 13
-      Item: 'minecraft:diamond_sword'
+      Item: 'Item:diamond_sword'
       Glowing: true
       Name: '&4&lA random sword'
       Lore:
@@ -116,4 +115,5 @@ GKitz: #GKit optons.
     Auto-Equip: false
     Cooldown: '24h'
     Items:
-      - 'Item:minecraft:diamond_sword, Amount:1, Name:&4&lTest Sword, Enchantments:Sharpness:1-5,Unbreaking:1-3,Sweeping_Edge:0-3,Fire_Aspect:0-2,Knockback:0-2 CustomEnchantments:Life_Steal:0-5,Double_Damage:0-3,SlowMo:0-3,Blindness:0-2,Viper:0-3,Confusion:0-4,Disarmer:0-3,Execute:0-4,Headless:0-5,Culminate:0-5,Nutrition:0-3,Goodbye:0-3,Skill_Swipe:0-5,Snare:0-3,Quagmire:0-2,Wither:0-3,Rage:0-3,Slice:0-2 Lore:&cThis better work.,&cor else i will vore ethan.'
+      - 'Item:
+      diamond_sword, Amount:1, Name:&4&lTest Sword, Enchantments:Sharpness:1-5,Unbreaking:1-3,Sweeping_Edge:0-3,Fire_Aspect:0-2,Knockback:0-2 CustomEnchantments:Life_Steal:0-5,Double_Damage:0-3,SlowMo:0-3,Blindness:0-2,Viper:0-3,Confusion:0-4,Disarmer:0-3,Execute:0-4,Headless:0-5,Culminate:0-5,Nutrition:0-3,Goodbye:0-3,Skill_Swipe:0-5,Snare:0-3,Quagmire:0-2,Wither:0-3,Rage:0-3,Slice:0-2 Lore:&cThis better work.,&cplease work.'
