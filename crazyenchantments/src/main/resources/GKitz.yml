@@ -2,30 +2,30 @@ Settings:
   GUI-Size: 27 #Must be a factor of 9.
   Inventory-Name: '&8Epic GKitz'
   GUI-Customization: #This allows you to customize unclickable items into you GUI.
-    - 'Slot:1, Item:minecraft:black_stained_glass_pane, Name: '
-    - 'Slot:2, Item:black_stained_glass_pane, Name: '
-    - 'Slot:3, Item:black_stained_glass_pane, Name: '
-    - 'Slot:4, Item:black_stained_glass_pane, Name: '
-    - 'Slot:5, Item:black_stained_glass_pane, Name: '
-    - 'Slot:6, Item:black_stained_glass_pane, Name: '
-    - 'Slot:7, Item:black_stained_glass_pane, Name: '
-    - 'Slot:8, Item:black_stained_glass_pane, Name: '
-    - 'Slot:9, Item:black_stained_glass_pane, Name: '
-    - 'Slot:10, Item:black_stained_glass_pane, Name: '
-    - 'Slot:11, Item:minecraft:gray_stained_glass_pane, Name: '
-    - 'Slot:13, Item:minecraft:gray_stained_glass_pane, Name: '
-    - 'Slot:15, Item:minecraft:gray_stained_glass_pane, Name: '
-    - 'Slot:17, Item:minecraft:gray_stained_glass_pane, Name: '
-    - 'Slot:18, Item:black_stained_glass_pane, Name: '
-    - 'Slot:19, Item:black_stained_glass_pane, Name: '
-    - 'Slot:20, Item:black_stained_glass_pane, Name: '
-    - 'Slot:21, Item:black_stained_glass_pane, Name: '
-    - 'Slot:22, Item:black_stained_glass_pane, Name: '
-    - 'Slot:23, Item:black_stained_glass_pane, Name: '
-    - 'Slot:24, Item:black_stained_glass_pane, Name: '
-    - 'Slot:25, Item:black_stained_glass_pane, Name: '
-    - 'Slot:26, Item:black_stained_glass_pane, Name: '
-    - 'Slot:27, Item:black_stained_glass_pane, Name: '
+    - 'Slot:1, dirt, Name: '
+    - 'Slot:2, dirt, Name: '
+    - 'Slot:3, dirt, Name: '
+    - 'Slot:4, dirt, Name: '
+    - 'Slot:5, dirt, Name: '
+    - 'Slot:6, dirt, Name: '
+    - 'Slot:7, dirt, Name: '
+    - 'Slot:8, dirt, Name: '
+    - 'Slot:9, dirt, Name: '
+    - 'Slot:10, dirt, Name: '
+    - 'Slot:11, dirt, Name: '
+    - 'Slot:13, dirt, Name: '
+    - 'Slot:15, dirt, Name: '
+    - 'Slot:17, dirt, Name: '
+    - 'Slot:18, dirt, Name: '
+    - 'Slot:19, dirt, Name: '
+    - 'Slot:20, dirt, Name: '
+    - 'Slot:21, dirt, Name: '
+    - 'Slot:22, dirt, Name: '
+    - 'Slot:23, dirt, Name: '
+    - 'Slot:24, dirt, Name: '
+    - 'Slot:25, dirt, Name: '
+    - 'Slot:26, dirt, Name: '
+    - 'Slot:27, dirt, Name: '
 ###################################
 #             Items: Options
 # Item: <ID:MD> - You can choose the item with its id and meta data.
@@ -42,7 +42,7 @@ GKitz: #GKit optons.
   Hero: #Name of the GKit.
     Display: #All the display option in the gui.
       Slot: 12 #Slot the item is located at in the gui.
-      Item: 'minecraft:orange_stained_glass_pane' #The item that is displayed for the GKit.
+      Item: 'minecraft:grass_block' #The item that is displayed for the GKit.
       Glowing: true #Toggle on or off if the item has an enchanted effect.
       Name: '&6&lThe Hero GKit' #Display name of the GKit.
       Lore: #The lore that goes on the display item.
@@ -64,7 +64,7 @@ GKitz: #GKit optons.
   PeaceKeeper:
     Display:
       Slot: 14
-      Item: 'minecraft:blue_stained_glass_pane'
+      Item: 'minecraft:sand'
       Glowing: true
       Name: '&9&lThe Peace Keeper GKit'
       Lore:
@@ -86,7 +86,7 @@ GKitz: #GKit optons.
   Villain:
     Display:
       Slot: 16
-      Item: 'minecraft:red_stained_glass_pane'
+      Item: 'minecraft:pumpkin'
       Glowing: true
       Name: '&4&lThe Villain GKit'
       Lore:
