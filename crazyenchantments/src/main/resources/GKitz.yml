@@ -107,7 +107,7 @@ GKitz: #GKit optons.
       - 'ce book overload 5 1 %Player%'
   TestSword:
     Display:
-      Slot: 12
+      Slot: 13
       Item: 'minecraft:diamond_sword'
       Glowing: true
       Name: '&4&lA random sword'
