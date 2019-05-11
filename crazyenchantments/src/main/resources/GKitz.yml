@@ -1,4 +1,4 @@
-  Settings:
+Settings:
   GUI-Size: 27 #Must be a factor of 9.
   Inventory-Name: '&8List of all GKitz'
   GUI-Customization: #This allows you to customize unclickable items into you GUI.
@@ -13,6 +13,7 @@
     - 'Slot:9, Item:BLACK_STAINED_GLASS_PANE, Name: '
     - 'Slot:10, Item:BLACK_STAINED_GLASS_PANE, Name: '
     - 'Slot:11, Item:GRAY_STAINED_GLASS_PANE, Name: '
+    - 'Slot:13, Item:GRAY_STAINED_GLASS_PANE, Name: '
     - 'Slot:15, Item:GRAY_STAINED_GLASS_PANE, Name: '
     - 'Slot:17, Item:GRAY_STAINED_GLASS_PANE, Name: '
     - 'Slot:18, Item:BLACK_STAINED_GLASS_PANE, Name: '
@@ -37,7 +38,7 @@
 # Example of this is shows here.
 # Overload:1-5, Hulk:1-5 << this will add Hulk and Overload and pick a random level from 1-5 and set it as the power.
 ###################################
-  GKitz: #GKit options.
+GKitz: #GKit options.
   Hero: #Name of the GKit.
     Display: #All the display option in the gui.
       Slot: 12 #Slot the item is located at in the gui.
@@ -109,16 +110,4 @@
     Fake-Items:
       - 'Item:BOOK, Amount:1, Name:&b&lOverLoad V, Lore:&7Gives health boost,&7when you put it on.,'
     Commands:
-- 'ce book overload 5 1 %Player%'
-  TestSword:
-    Display:
-      Slot: 13
-      Item: 'Item:DIAMOND_SWORD'
-      Glowing: true
-      Name: '&4&lA random sword'
-      Lore:
-        - '&7This is a test'
-    Auto-Equip: false
-    Cooldown: '24h'
-    Items:
-      - 'Item:DIAMOND_SWORD, Amount:1, Name:&4&lTest Sword, Enchantments:Sharpness:1-5,Unbreaking:1-3,Sweeping_Edge:0-3,Fire_Aspect:0-2,Knockback:0-2 CustomEnchantments:Life_Steal:0-5,Double_Damage:0-3,SlowMo:0-3,Blindness:0-2,Viper:0-3,Confusion:0-4,Disarmer:0-3,Execute:0-4,Headless:0-5,Culminate:0-5,Nutrition:0-3,Goodbye:0-3,Skill_Swipe:0-5,Snare:0-3,Quagmire:0-2,Wither:0-3,Rage:0-3,Slice:0-2 Lore:&cThis better work.,&cplease work.'
+      - 'ce book overload 5 1 %Player%'
