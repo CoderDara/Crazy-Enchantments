@@ -37,7 +37,7 @@
 # Example of this is shows here.
 # Overload:1-5, Hulk:1-5 << this will add Hulk and Overload and pick a random level from 1-5 and set it as the power.
 ###################################
-GKitz: #GKit options.
+  GKitz: #GKit options.
   Hero: #Name of the GKit.
     Display: #All the display option in the gui.
       Slot: 12 #Slot the item is located at in the gui.
